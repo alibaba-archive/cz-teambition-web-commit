@@ -1,0 +1,22 @@
+{
+  "name": "cz-teambition-web-commit",
+  "version": "1.0.0",
+  "description": "Commitizen adapter for teambition web frontend",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "author": "Boshen <boshenc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "word-wrap": "^1.1.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index"
+    }
+  }
+}
