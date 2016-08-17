@@ -1,6 +1,6 @@
 {
   "name": "cz-teambition-web-commit",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Commitizen adapter for teambition web frontend",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "word-wrap": "^1.1.0"
   },
   "devDependencies": {
-    "commitizen": "^2.8.0"
+    "commitizen": "^2.8.6"
   },
   "config": {
     "commitizen": {
